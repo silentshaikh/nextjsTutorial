@@ -8,4 +8,4 @@ function ContactTextarea() {
   )
 }
 
-export default ContactTextarea
+export default ContactTextarea;

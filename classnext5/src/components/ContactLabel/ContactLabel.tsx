@@ -7,5 +7,4 @@ function ContactLabel({label}:{label:string}) {
     </>
   )
 }
-
 export default ContactLabel;

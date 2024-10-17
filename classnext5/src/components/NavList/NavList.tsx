@@ -1,15 +1,17 @@
 import React from 'react'
 
 function NavList() {
+  let navList:string[] = ["Home","Project","About","Contact","Skill"]; 
   return (
     <ul className='flex gap-5'>
-      <li>Home</li>
-      <li>Project</li>
-      <li>About</li>
-      <li>Contact</li>
-      <li>Skill</li>
+   {
+    navList.map((e,i) => {
+      return (
+       <li key={i}>{e}</li> 
+      );
+    })
+   }
     </ul>
   )
 }
-
 export default NavList
